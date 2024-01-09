@@ -1,0 +1,449 @@
+* {
+    margin: 0;
+    padding: 0;
+    max-width: 1600px;
+    font-family: 'Merriweather', serif;
+    font-family: 'Inter', sans-serif;
+}
+
+/* header section */
+
+.banner {
+    background-image: linear-gradient(180deg, #070211 0%, rgba(7, 2, 17, 0.00) 100%), url('resources/Banner\ Image.png');
+    background-repeat: no-repeat;
+    background-position: center center;
+    height: 600px;
+    border-radius: 16px;
+    margin: 50px 140px 0 140px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.banner-title {
+    color: #FFF;
+    text-align: center;
+}
+
+.banner-head {
+    padding: 177px 400px 0 400px;
+    font-size: 32px;
+    font-weight: 400;
+}
+
+.banner-body {
+    color: #FFF;
+    font-size: 72px;
+    font-weight: 900;
+    line-height: 95px;
+    padding: 0 344px 177px 344px;
+}
+
+/* main section */
+
+.section-one {
+    text-align: center;
+    padding-top: 120px;
+}
+
+.section-one-title {
+    color: #F00;
+    text-align: center;
+    font-size: 88px;
+    font-weight: 700;
+    font-family: Inter;
+
+}
+
+.section-one-para {
+    color: #F00;
+    font-size: 24px;
+    font-weight: 500;
+    padding-top: 48px;
+    padding-bottom: 16px;
+    font-family: Inter;
+}
+
+.section-one-body {
+    color: #070211;
+    font-size: 48px;
+    font-weight: 700;
+    font-family: Inter;
+}
+
+.section-one-image {
+    padding: 45px 259px 0 259px;
+}
+
+.section-two {
+    background-image: linear-gradient(90deg, #070211 0%, rgba(7, 2, 17, 0.00) 100%), url('../resources/Vectorrr.png');
+    background-repeat: no-repeat;
+    background-position: center center;
+    height: 600px;
+    border-radius: 16px;
+    margin: 120px 140px 120px 140px;
+}
+
+.section-two-contain {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.section-two-container-one {
+    justify-content: center;
+    padding: 126px 56px 142px 126px;
+}
+
+.section-two-header {
+    color: #FFF;
+    font-size: 64px;
+    font-weight: 900;
+}
+
+.section-two-para {
+    color: rgba(255, 255, 255, 0.80);
+    font-family: Inter;
+    font-size: 18px;
+    font-weight: 400;
+    padding-top: 24px;
+    padding-bottom: 48px;
+}
+
+
+.section-two-footer a {
+    text-decoration: none;
+    color: #FFF;
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 700;
+    text-transform: uppercase;
+    padding-left: 32px;
+
+}
+
+.section-two-image {
+    padding: 68.11px 138px 67.23px 0;
+}
+
+.section-three {
+    background: linear-gradient(180deg, rgba(255, 0, 0, 0.10) 0%, rgba(255, 0, 0, 0.00) 100%);
+    margin: 120px 140px 120px 140px;
+    font-family: 'Inter';
+}
+
+.section-three-contain {
+    text-align: center;
+    padding: 100px 385px 48px 385px;
+    color: #070211;
+    font-family: 'Inter', sans-serif;
+    font-size: 32px;
+    font-weight: 600;
+    line-height: 56px;
+    text-transform: capitalize;
+}
+
+#section-three-text {
+    color: #F00;
+}
+
+.button {
+    border-radius: 8px;
+    color: #FFF;
+    background: #F00;
+    display: inline-flex;
+    padding: 16px 32px;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    border: 0;
+}
+
+.button:hover {
+    background: rgba(255, 0, 0, 0.707);
+}
+
+.section-four {
+    margin: 0 140px 120px 140px;
+}
+
+.section-four-contain {
+    display: flex;
+    align-items: center;
+    gap: 100px;
+}
+
+.section-four-container {
+    padding: 30px;
+}
+
+.section-four-container #four-text {
+    color: #F00;
+    font-family: Inter;
+    font-size: 24px;
+    font-weight: 500;
+    padding-bottom: 16px;
+}
+
+.section-four-container h3 {
+    color: #070211;
+    font-size: 48px;
+    font-weight: 900;
+    text-transform: capitalize;
+    padding-bottom: 22px;
+}
+
+.section-four-container p {
+    color: rgba(7, 2, 17, 0.60);
+    font-family: Inter;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 32px;
+}
+
+.section-four-container #img {
+    border-radius: 463px;
+    border: 15px solid #F00;
+    padding: 49.08px;
+}
+
+.section-five {
+    margin: 0 140px 48px 140px;
+}
+
+.section-five-contain-one .section-five-text {
+    color: rgba(7, 2, 17, 0.60);
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 32px;
+    padding-bottom: 64px;
+}
+
+.section-five-contain-one {
+    text-align: center;
+}
+
+.section-five-contain-one h1 {
+    color: #070211;
+    font-size: 72px;
+    font-weight: 900;
+    padding: 16px 0 28px 0;
+}
+
+.section-five-contain-one #holidays {
+    color: #F00;
+}
+
+.section-five-contain-one p {
+    color: #070211;
+    font-family: Inter;
+    font-size: 24px;
+    font-weight: 500;
+}
+
+.section-five-contain-two {
+    background-image: url('../resources/Rectangle\ 1.png');
+    background-repeat: no-repeat;
+    background-size: auto 100%;
+    background-position: bottom right;
+    padding: 66px 0 0 765px;
+    border-radius: 16px 16px 0px 0px;
+}
+
+.section-five-contain-two-image img {
+    padding-bottom: 67px;
+    width: 220.048px;
+    height: 220.119px;
+}
+
+.section-five-foot {
+    background-image: url('../resources/Rectangle\ 2.png');
+    background-repeat: no-repeat;
+    border-radius: 16px 0px 16px 16px;
+    height: 200px;
+    padding-bottom: 120px;
+}
+
+.section-five-foot img {
+    transform: translate(0%, -66%);
+    width: 600px;
+    height: 500px;
+}
+
+.section-six {
+    padding: 0 200px 120px 140px;
+}
+
+.section-six-contain h4 {
+    color: #F00;
+    font-family: Inter;
+    font-size: 24px;
+    font-weight: 500;
+    padding-bottom: 16px;
+}
+
+.section-six-contain h1 {
+    color: #070211;
+    font-family: Merriweather;
+    font-size: 48px;
+    font-weight: 900;
+    padding-bottom: 22px;
+}
+
+.section-six-contain p {
+    color: rgba(7, 2, 17, 0.60);
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 32px;
+    padding-bottom: 48px;
+}
+
+.section-six-image {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    gap: 24px;
+}
+
+.section-six-image .image:hover {
+    border: 4px solid black;
+    border-radius: 22px;
+    transform: scale(1.1);
+    transition-duration: 1s;
+}
+
+.section-seven {
+    margin: 0 140px 48px 140px;
+    border-radius: 16px;
+    background: rgba(255, 0, 0, 0.05);
+    text-align: center;
+    margin-top: 120px;
+}
+
+.section-seven-contain #img {
+    padding-top: 80px;
+    padding-bottom: 40px;
+}
+
+.section-seven-contain h1 {
+    color: #070211;
+    font-family: Merriweather;
+    font-size: 48px;
+    font-weight: 900;
+    padding-bottom: 22px;
+}
+
+.section-seven-contain p {
+    padding: 0 212px 48px 212px;
+    color: rgba(7, 2, 17, 0.60);
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 32px;
+}
+
+.section-seven-foot {
+    display: flex;
+    margin: 0 336px 80px 336px;
+    padding-bottom: 80px;
+}
+
+.section-seven-foot input {
+    display: block;
+    padding-left: 30px;
+    color: #757575;
+    background: #FFFFFF;
+    border: 0;
+    width: 648px;
+    height: 72px;
+    border-radius: 50px 0 0 50px;
+
+
+}
+
+.section-seven-foot button {
+    display: block;
+    margin-bottom: 25px;
+    padding: 24px 56px 24px 56px;
+    color: #FFF;
+    border-radius: 0 50px 50px 0;
+    background: #F00;
+    border: 0;
+    width: 210px;
+    height: 72px;
+
+}
+
+.section-seven-foot button:hover {
+    background: rgba(255, 0, 0, 0.703);
+}
+
+
+/* footer section */
+
+.footer {
+    background-color: #070211;
+}
+
+.footer-contain-one {
+    display: flex;
+    color: #FFF;
+}
+
+.footer-contain-one-text p {
+    font-family: Inter;
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 40px;
+    padding: 120px 450px 50px 140px;
+}
+
+.contact {
+    padding: 120px 291px 50px 0;
+}
+
+.inline-block-container {
+    display: flex;
+}
+
+.inline-block-container p {
+    color: #FFF;
+    font-family: Inter;
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 40px;
+}
+
+.inline-block-container img {
+    padding: 9px 16px 16px 0;
+    height: 24px;
+    width: 24px;
+}
+
+.hr {
+    margin: 0 140px 48px 140px;
+}
+
+.social-link {
+    text-align: center;
+    padding-bottom: 48px;
+}
+
+.social-link img {
+    padding-right: 24px;
+}
+
+#footer-contain-one {
+    padding: 0 880px 120px 140px;
+}
+
+.footer-contain-one .Reserved {
+    padding: 0 880px 120px 140px;
+}
+
+.footer-contain-one .Unsubscribe {
+    text-decoration: none;
+    padding: 0 140px 120px 0;
+}
