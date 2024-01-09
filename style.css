@@ -9,7 +9,7 @@
 /* header section */
 
 .banner {
-    background-image: linear-gradient(180deg, #070211 0%, rgba(7, 2, 17, 0.00) 100%), url('resources/Banner\ Image.png');
+    background-image: linear-gradient(180deg, #070211 0%, rgba(7, 2, 17, 0.00) 100%), url('./resources/Banner\ Image.png');
     background-repeat: no-repeat;
     background-position: center center;
     height: 600px;
@@ -76,7 +76,7 @@
 }
 
 .section-two {
-    background-image: linear-gradient(90deg, #070211 0%, rgba(7, 2, 17, 0.00) 100%), url('../resources/Vectorrr.png');
+    background-image: linear-gradient(90deg, #070211 0%, rgba(7, 2, 17, 0.00) 100%), url('./resources/Vectorrr.png');
     background-repeat: no-repeat;
     background-position: center center;
     height: 600px;
